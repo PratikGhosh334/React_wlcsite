@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React_wlcsite/static/css/main.b382bbcc.css",
+    "main.js": "/React_wlcsite/static/js/main.497685a8.js",
+    "static/media/Pratik.jpeg": "/React_wlcsite/static/media/Pratik.d38856e23f77f6fcbb57.jpeg",
+    "index.html": "/React_wlcsite/index.html",
+    "main.b382bbcc.css.map": "/React_wlcsite/static/css/main.b382bbcc.css.map",
+    "main.497685a8.js.map": "/React_wlcsite/static/js/main.497685a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b382bbcc.css",
+    "static/js/main.497685a8.js"
+  ]
+}
