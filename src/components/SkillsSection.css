@@ -1,0 +1,80 @@
+.skills-section {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    color: #333;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .skills-heading {
+    font-size: 2.5rem;
+    color: #17c8b4;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .skills-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .zigzag-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .zigzag-item.right {
+    justify-content: flex-end;
+    text-align: right;
+  }
+  
+  .zigzag-item.left {
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  .zigzag-item .icon {
+    font-size: 3rem;
+    margin: 0 20px;
+    color: #4ecfdb;
+  }
+  
+  .zigzag-item .content {
+    max-width: 500px;
+  }
+  
+  .zigzag-item .content h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #48bbc3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+  
+  .zigzag-item .content .guitar-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic; /* Apply italic style */
+  }
+  
+  .zigzag-item .content .workout-text {
+    font-family: 'Roboto', Arial, sans-serif; /* Change font family */
+    font-weight: 500;
+  }
+  .zigzag-item .content .web-dev {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace
+  }
+  
+  .zigzag-item .content p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Default sans-serif font */
+  }
+  

@@ -1,13 +1,56 @@
 body {
+  /* Reset margin and set default font family with smoothing */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Gradient background and default text color */
+  background: linear-gradient(to right, #a0eafc, #ffffff);
+  color: #333;
+
+  /* Flexbox properties for centering content */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
+  /* Font family for code snippets */
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  /* Remove underline from links and inherit text color */
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  /* Remove default padding and margin for lists */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.socials {
+  /* Center align social icons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials a {
+  /* Margin between social icons */
+  margin: 0 10px;
+}
+
+footer p {
+  /* Margin for footer paragraphs */
+  margin: 20px 0 10px;
 }
